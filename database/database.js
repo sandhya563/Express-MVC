@@ -15,11 +15,11 @@ knex.schema
     table.string("password");
   })
   .then((data) => {
-      console.log(data)
+      // console.log(data)
     console.log("Table Created");
   })
   .catch((err) => {
-      console.log(err)
+      // console.log(err)
     console.log("Table Already Exist!!");
   });
 // knex.sechcma.hasTable('userpost').then(function (exits) {

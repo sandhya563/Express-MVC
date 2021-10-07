@@ -1,4 +1,4 @@
-const knex = require('../connection/database')
+const knex = require('../database/database')
 
 users = (req, res) => {
     knex
